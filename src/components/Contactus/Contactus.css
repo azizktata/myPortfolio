@@ -1,0 +1,151 @@
+.contact-us{
+    height: 90%;
+    width: 16%;
+    min-width: 15rem;
+    border-right: 1px solid #0C1F30;
+    
+}
+.contact-field{
+    height: 90%;
+    width: 100%;
+    min-width: 45rem;
+    margin-left: 0%;
+    border-right: 1px solid #0C1F30;
+   
+    
+
+}
+.contacts{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    
+}
+.code-snips{
+    height: 100%;
+    width: 75%;
+    margin-left:   auto;
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+    min-height: 50vh;
+    margin-top: 4em;
+    
+}
+.input-box{
+    position: relative;
+    width: 250px;
+}
+.input-box input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.25);
+    background-color:#011221;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 0.75em;
+    font-family: 'Fira Code';
+font-style: normal;
+}
+
+.input-box span{
+    position:absolute;
+    left: 0;
+    padding: 10px;
+    bottom: 2em;
+    pointer-events: none;
+    font-size: 1em;
+    color: #607B96;
+    font-family: 'Fira Code';
+    font-style: normal;
+    transition: 0.5s;
+}
+.lower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.msgsent{
+color: green;
+
+opacity: 1;
+}
+.msg{
+    opacity: 0;
+}
+.input-box .txtarea{
+    bottom: 9.5em;
+    
+}
+.input-box textarea{
+    width: 100%;
+    height: 10em;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.25);
+    background-color:#011221;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 1em;
+    
+}
+.submit-btn{
+    background: #1C2B3A;
+border-radius: 8px;
+
+padding: 10px 14px;
+color: white;
+cursor: pointer;
+width: 50%;
+height: 27%;
+border: none;
+align-items: center;
+font-family: 'Fira Code';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 80%;
+}
+/* .input-box input:valid ,
+.input-box input:focus 
+{
+    color: #00dfc4;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background-color: #0C1F30;
+    border-left: 1px solid #00dfc4;
+    border-right: 1px solid #00dfc4;
+    letter-spacing: 0.2em;
+
+} */
+@media screen and (max-width: 800px)  {
+    .contact-us{
+        width: 100%;
+        margin-top: 3.25rem;
+        
+    }
+    .contact-field{
+        height: 100%;
+        width: 100%;
+        min-width: 100%;
+        margin-left: 0%;
+    
+    }
+    .contacts{
+        display: flex;
+        margin-right: 0rem;
+        align-items: center;
+        flex-direction: column;
+    
+        width: 100%;
+        
+    }
+}

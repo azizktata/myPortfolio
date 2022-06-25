@@ -1,0 +1,199 @@
+.home-main{
+    width: 100%;
+    height: 100%;
+    background: #011627;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.personal-info{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 60%;
+   z-index: 1;
+    position: absolute;
+    margin-left: 10%;
+   
+
+}
+
+.layers{
+    height: 90%;
+    width: 100%;
+    position: relative;
+  
+}
+.green-img {
+    top: 0px;
+    width: 50%;
+height: 80%;
+position:absolute;
+left: 30%;
+/* background: #43D9AD; */
+opacity: 1;
+filter: blur(10px);
+transform: rotate(13.51deg);
+
+}
+.blue-img{
+    position: absolute;
+   
+     
+    width: 56%;
+height: 70%;
+left: 40%;
+top: 20%;
+opacity: 1;
+filter: blur(0px);
+transform: rotate(-14.3deg);
+}
+
+
+
+.hi{
+    height: 24px; 
+    
+    width: 12rem;
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 1.25vw;
+    line-height: 24px;
+    color: #E5E9F0;
+    margin-bottom: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 2s steps(22), blink 0.5s step-end infinite alternate;
+    
+    
+    
+}
+@keyframes type{
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+    1%, 99%{
+        border-right: 1px solid rgb(233, 210, 169);
+        opacity: 1;
+    }
+    100%{
+        border-right: none;
+        opacity: 1;
+    }
+}
+
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
+.Myname{
+    height: 81px;
+    width: 30rem;
+    font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 62px;
+line-height: 81px;
+margin-bottom: 0%;
+color: #E5E9F0;
+cursor: pointer;
+/* transition: 0.5s; */
+white-space: nowrap;
+    overflow: hidden;
+animation:  type 3s steps(22), blink 0.5s step-end infinite alternate;
+animation-timing-function: cubic-bezier(0.75,0.5,0.75,0.5);
+
+
+}
+/* .Myname:hover{
+    color: #fff;
+    text-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 100px #03e9f4;
+        border: none;
+    
+} */
+.job{
+    height: 42px;
+    width: 25rem;
+    font-family: 'Fira Code';
+font-style: normal;
+font-weight: 450;
+font-size: 32px;
+line-height: 42px;
+margin-bottom: 13%;
+/* identical to box height */
+
+white-space: nowrap;
+    overflow: hidden;
+animation:  type 4s steps(22), blink 0.5s step-end infinite alternate;
+animation-timing-function: cubic-bezier(1,0.25,0.5,0.5);
+color: #4D5BCE;
+
+}
+.gitlink{
+    height: 21px;
+    font-family: 'Fira Code';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+}
+.const{
+    color: #4D5BCE; 
+}
+.github{
+    color: #43D9AD;
+}
+.link{
+    color: #E99287;
+}
+@media screen and (max-width: 800px)  {
+    .green-img {
+        
+    width: 80%;
+    height: 74%;
+    left: 0%;
+    }
+    .blue-img{  
+    width: 70%;
+    height: 74%;
+    left: 15%;
+    top: 25%;
+    }
+    .personal-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 80%;
+        width: 100%;
+        
+        margin-top: 17%;
+        position: absolute;
+        margin-left: 2%;
+        
+    
+    }
+    .hi{
+        font-size: 3vw;
+    }
+    .Myname{
+        font-size: 10vw;
+    }
+    
+    .gitlink{
+        height: 21px;
+        font-family: 'Fira Code';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 18px;
+    }
+    .job{
+        font-size: 4vw;
+    }
+}

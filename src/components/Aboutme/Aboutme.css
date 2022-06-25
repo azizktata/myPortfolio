@@ -1,0 +1,169 @@
+.mainbtm{
+    height: 1100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #011627;
+    
+}
+.personalinfo{
+    height: 90%;
+    width: 16%;
+    margin-left: 0;
+    min-width: 15rem;
+    border-right: 1px solid #0C1F30;
+}
+#bio{
+    color: #E99287;
+}
+#education{
+    color:#43D9AD;
+}
+#CV{
+    color:#3A49A4;
+}
+.itemtext{
+    font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #607B96;
+}
+.data-field{
+    height: 90%;
+    width: 54%;
+    min-width: 45rem;
+    margin-left: 0%;
+    border-right: 1px solid #0C1F30;
+
+}
+.headerr{
+    height: 3rem;
+    border: 1px solid #0C1F30;
+}
+.tete{
+    font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #607B96;
+
+
+margin-top: 0;
+padding-left: 2rem;
+padding-top:0.8rem ;
+}
+.num{
+    font-family: 'Fira Code';
+font-style: normal;
+font-weight: 450;
+font-size: 13px;
+line-height: 170%;
+padding-left: 2rem;
+
+/* or 27px */
+
+text-align: left;
+
+
+color: #607B96;
+
+}
+.numbers{
+   
+   padding-top: 0.5rem;
+   
+}
+.textfield{
+
+margin-bottom: 5rem;
+    font-family: 'Fira Code';
+font-style: normal;
+font-weight: 450;
+font-size: 18px;
+line-height: 100%;
+/* or 27px */
+width: 100%;
+padding-left: 2rem;
+
+color: #607B96;
+
+}
+.data{
+    display: flex;
+    
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+.cadre{
+    border: 1px solid #0C1F30;
+    width: 13rem; 
+}
+
+.code-snippets{
+    height: 100%;
+    width: 30%;
+    margin-left:   auto;
+    
+
+}
+.bio{
+    width: 100%;
+  
+}
+@media screen and (max-width: 800px)  {
+    .mainbtm{
+        display: flex;
+        flex-direction: column;
+    }
+    .personalinfo{
+        width: 100%;
+        margin-top: 3.25rem;
+    }
+    .data-field{
+        height: 100%;
+        width: 100%;
+        min-width: 100%;
+        
+    
+    }
+    .headerr{
+        height: 3rem;
+        width: fit-content;
+      
+        border: 1px solid #0C1F30;
+    }
+    .textfield{
+
+      
+        padding-left: 0.5rem;
+        
+    }
+    .textfield p{
+
+      
+       font-size: 3.5vw;
+        
+    }
+    .numbers{
+        display: none;
+    }
+        .data{
+            display: flex;
+            
+            justify-content: flex-start;
+            width: 100%;
+            
+            
+        }
+
+}

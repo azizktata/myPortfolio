@@ -1,0 +1,195 @@
+.mainPJ{
+    height: 1100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #011627;
+}
+.projects{
+    height: 90%;
+    width: 16%;
+    min-width: 15rem;
+    border-right: 1px solid #0C1F30;
+    
+}
+.project-field{
+    height: 90%;
+    width: 100%;
+    min-width: 45rem;
+    
+    margin-left: 0%;
+    border-right: 1px solid #0C1F30;
+   
+    
+
+}
+.projects-space{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 10% 2%;
+    width: 94%;
+   
+    
+}
+.filters{
+    font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+    color: #607B96;
+    margin-left: 13%;
+}
+.icon{
+    
+}
+.card{
+    margin-left: 3%;
+}
+.project-card{
+    height: 16rem;
+    width: 21rem;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    /* animation: fadeInFromTop .5s linear forwards, floating ease 4s infinite; */
+    /* border: 1px solid #0C1F30; */
+    
+
+}
+@keyframes fadeInFromTop{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes floating{
+    0%{
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+    25%{
+        transform: translate(5%, 15%) rotate(360deg);
+    }
+    50%{
+        transform: translate(10%, 5%) rotate(360deg);
+    }
+    75%{
+        transform: translate(0%, 15%) rotate(360deg);
+    }
+    100%{
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+
+}
+
+
+.project-card img{
+    height: 100%;
+    width: 100%;
+}
+
+.project-card:hover .project-details{
+    opacity: 1;
+    height: 50%;
+    border: 2px solid #0C1F30;
+
+}
+.project-details{
+    position: absolute;
+    width: 100%;
+    background: #011221;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 2;
+    transition: 0.5s ease;
+    left: 0;
+    bottom: 0;
+    height: 0%;
+    opacity: 0;
+    
+    border: 2px solid #607B96;
+}
+.project-details p{
+    font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+/* or 27px */
+padding-left: 10%;
+padding-bottom: 5%;
+color: #607B96;
+
+}
+.prjt-btn{
+    background: #1C2B3A;
+border-radius: 8px;
+margin-left: 10%;
+padding: 10px 14px;
+color: white;
+cursor: pointer;
+width: 13em;
+height: 3em;
+border: none;
+align-items: center;
+font-family: 'Fira Code';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 80%;
+}
+.card h3{
+    font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+padding-left: 5%;
+color: #5565E8;
+}
+.card span{
+    font-family: 'Fira Code';
+font-style: normal;
+font-weight: 450;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #607B96;
+}
+@media screen and (max-width: 800px)  {
+    .mainPJ{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+       
+    }
+    .projects{
+        width: 100%;
+        margin-top: 3.25rem;
+        
+    }
+    .project-field{
+        width: 100%;
+        min-width: 100%;
+    }
+    .projects-space{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      
+        height: 100%;
+    }
+}
