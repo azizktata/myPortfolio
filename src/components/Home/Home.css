@@ -64,7 +64,7 @@ transform: rotate(-14.3deg);
     margin-bottom: 0%;
     white-space: nowrap;
     overflow: hidden;
-    animation: type 2s steps(22), blink 0.5s step-end infinite alternate;
+    /* animation: type 2s steps(22), blink 0.5s step-end infinite alternate; */
     
     
     
@@ -100,15 +100,15 @@ line-height: 81px;
 margin-bottom: 0%;
 color: #E5E9F0;
 cursor: pointer;
-/* transition: 0.5s; */
-white-space: nowrap;
-    overflow: hidden;
-animation:  type 3s steps(22), blink 0.5s step-end infinite alternate;
-animation-timing-function: cubic-bezier(0.75,0.5,0.75,0.5);
+transition: 0.5s;
+/* white-space: nowrap;
+    overflow: hidden; */
+/* animation:  type 3s steps(22), blink 0.5s step-end infinite alternate;
+animation-timing-function: cubic-bezier(0.75,0.5,0.75,0.5); */
 
 
 }
-/* .Myname:hover{
+.Myname:hover{
     color: #fff;
     text-shadow: 0 0 5px #03e9f4,
         0 0 25px #03e9f4,
@@ -116,7 +116,7 @@ animation-timing-function: cubic-bezier(0.75,0.5,0.75,0.5);
         0 0 100px #03e9f4;
         border: none;
     
-} */
+}
 .job{
     height: 42px;
     width: 25rem;
@@ -130,8 +130,8 @@ margin-bottom: 13%;
 
 white-space: nowrap;
     overflow: hidden;
-animation:  type 4s steps(22), blink 0.5s step-end infinite alternate;
-animation-timing-function: cubic-bezier(1,0.25,0.5,0.5);
+/* animation:  type 4s steps(22), blink 0.5s step-end infinite alternate;
+animation-timing-function: cubic-bezier(1,0.25,0.5,0.5); */
 color: #4D5BCE;
 
 }
