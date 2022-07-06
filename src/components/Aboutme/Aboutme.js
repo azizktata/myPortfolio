@@ -161,15 +161,16 @@ function Aboutme() {
                     </div>
                     <div className='textfield'>
                             <p>{'/**'}</p>
-                            <p>* i have 1year experiance in web developement</p>
-                            <p>* dzkfjnizdjnfijngjdjgkffdsgdfdhddfgh</p>
-                            <p>* dzkfjnizdjnfijngjdjgkffdsgdfdhddfgh</p>
-                            <p>* dzkfjnizdjnfijngjdjgkffdsgdfdhddfgh</p>
-                            <p>* dzkfjnizdjnfijngjdjgkffdsgdfdhddfgh</p>
-                            <p>* </p>
-                            <p>* dzkfjnizdjnfijngjdjgkffdsgdfdhddfgh</p>
-                            <p>* dzkfjnizdjnfijngjdjgkffdsgdfdhddfgh</p>
-                            <p>* dzkfjnizdjnfijngjdjgkffdsgdfdhddfgh</p>
+                            <p>* I'am junior software developer</p>
+                            <p>* expected to be graduated in 2024</p>
+                            <p>* i see myself as a person who has a potential</p>
+                            <p>* to succesed and step out in whatever area</p>
+                            <p>* im gonna dive in.</p>
+                            
+                            <p>* I'm extremly motivated to develop new skills</p>
+                            
+                            <p>* and grow professionally, always seeking discomfort</p>
+                            <p>* and ready for new challenge.</p>
                             <p>*/</p>
                     </div>
             </div>
